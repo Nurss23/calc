@@ -26,24 +26,21 @@ function myFunction () {
         console.log('call mySub')
         value1 = Number(num1.value)
         value2 = Number(num2.value)
-        sm = value1 - value2
-        // console.log(sm)
-        result.textContent = sm     
+        sb = value1 - value2
+        result.textContent = sb   
     }
     function myMult() {
         console.log('call myMult')
         value1 = Number(num1.value)
         value2 = Number(num2.value)
-        sm = value1 * value2
-        // console.log(sm)
-        result.textContent = sm     
+        ml = value1 * value2
+        result.textContent = ml
     }
     function myDiv() {
         console.log('call myDiv')
         value1 = Number(num1.value)
         value2 = Number(num2.value)
-        sm = value1 / value2
-        // console.log(sm)
-        result.textContent = sm     
+        dv = value1 / value2
+        result.textContent = dv     
     }
 }
